@@ -7,8 +7,8 @@ st.title("Tech-it")
 content = """
 Welcome to tech-it. This is the right spot for all
 tech related services. Like it is said 'Any problem that
-can be solve with tech will be solve with tech.' And that is what we
-here at Tech-it
+can be solve with tech will be solve with tech.' And that is why we
+here at Tech-it. Quality service and competent team.
 """
 st.write(content)
 st.subheader("The Team")
