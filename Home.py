@@ -5,9 +5,9 @@ st.set_page_config(layout="wide")
 # Add a header and some other text
 st.title("Tech-it")
 content = """
-Welcome to tech-it. This is the right sport for all
-tech related services. Like it is said any problem that
-can be solve with tech will be solve with tech. And that is what we
+Welcome to tech-it. This is the right spot for all
+tech related services. Like it is said 'Any problem that
+can be solve with tech will be solve with tech.' And that is what we
 here at Tech-it
 """
 st.write(content)
