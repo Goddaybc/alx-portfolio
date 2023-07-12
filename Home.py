@@ -3,17 +3,16 @@ import pandas
 # Set webpage layout to wide
 st.set_page_config(layout="wide")
 # Add a header and some other text
-st.title("The Best Company")
+st.title("Tech-it")
 content = """
-This is to test my skill on my website journey to
-know what i can do and how i need to go further
-from here because i need it in my journey
+Welcome to tech-it. This is the right sport for all
+tech related services. Like it is said any problem that
+can be solve with tech will be solve with tech. And that is what we
+here at Tech-it
 """
 st.write(content)
-st.subheader("Our Team")
+st.subheader("The Team")
 # Prepare the columns
-# col1,col2,col3 = st.columns(3)
-#col1, em1, col2, em2, col3 = st.columns([1.3,0.2,1.3,0.2,1.3])
 col1, col2, col3 = st.columns(3)
 # Make a dataframe with company members
 df = pandas.read_csv("data.csv",sep=(","))
